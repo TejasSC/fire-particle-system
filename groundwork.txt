@@ -1,0 +1,16 @@
+got many particles, all rendered beyond GLPOINT
+
+tips of flames move in complex trigonometric motion
+- amplitude varies depending on the height of flame/its position
+- a vertical 'acceleration' of sorts is added on, this is controllable
+- relates to flame intensity of motion
+
+Very random way of moving in real life, so trigonometric functions with
+different amplitudes and frequencies reflect that
+- sort of accurate, don't want to make the motion too complex
+
+Performance is limited by CPU in some way
+- Rendering really slows down when num of particles gets above million
+- This might be because I've stored the particle image as a 3x3 array of
+vertices to represent a triangle in 3d space
+- 
